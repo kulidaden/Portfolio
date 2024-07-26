@@ -1,0 +1,453 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body,html{
+    width: 100%;
+    height: 200px;
+}
+
+
+header{
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;
+    background: #39654d9c;;
+    float: left;
+    position: fixed;
+}
+header #logo {
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+header #logo span{
+    font-size: 2.7em;
+    line-height: 45px;
+    margin-left: 40px;
+    font-family: 'Suez One', serif;
+}
+
+
+@media (min-width: 701px){
+    #logo {
+        float: left;
+        width: 100%;
+        font-size: 1.1em;
+    }
+    #about{
+        float: right;
+        width: 1100px;
+    }
+}
+
+@media (max-width: 700px){
+    #logo{
+        margin-top: 15px
+        float: left;
+        width: 100%;
+        font-size: 1.1em;
+    }
+    #about{
+        float: left;
+        width: 100%;
+    }
+}
+
+#about{
+    text_align: right;
+    font-size: 1.5em;
+    line_height: 40px;
+    margin-bottom: 10px;
+}
+
+#about > a {color:#fff}
+
+#about > a:hover {
+    color:#b0b0b0;
+
+}
+
+#about > a{
+    margin-right:3%;
+}
+
+.fixed{
+    z-index: 5000;
+    background: #39654d9c;
+    border_bottom: 1px solid silver;
+}
+
+header.fixed #logo{
+    color: #ffffff;
+}
+
+.fixed #about a{color: #ffffff}
+.fixed #about a:hover {color: #7c7c7c}
+
+
+#top {
+    position: relative;
+    width: 100%;
+    height: 600%; /* змінив height з 600% на 600px для коректного відображення */
+    background: url(../img/img26.jpg);
+    background-blend-mode: multiply;
+    background-color: #a5a5a5;
+    background-size: cover;
+    text-align: center;
+    color: #c3f5cc;
+    z-index: -1;
+    background-attachment:fixed;
+}
+
+#top_about {
+    position: relative;
+    width: 100%;
+    height: 400vh; /* змінив height з 600% на 600px для коректного відображення */
+    background: url(../img/img26.jpg);
+    background-blend-mode: multiply;
+    background-color: #a5a5a5;
+    background-size: cover;
+    text-align: center;
+    color: #c3f5cc;
+    z-index: -1;
+    background-attachment:fixed;
+}
+.proj_1_img2 {
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    width: 48%;
+    height: 12%;
+    background: url(../img/img2.jpg);
+    background-blend-mode: hard-light;
+    background-color: rgba(165, 165, 165, 0.5);
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.5;
+}
+
+.description_about_proj_1 {
+    position: absolute;
+    width: 39%;
+    top: calc(149px + 0% + 22px);
+    left: 6%;
+    color: #c3f5cc;
+    font-size: 215%;
+    z-index: 7;
+    text-align: center;
+}
+
+.proj_2_img_com {
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 17%;
+    left: 2%;
+    width: 48%;
+    height: 12%;
+    background: url(../img/img_com.png);
+    background-blend-mode: hard-light;
+    background-color: rgba(165, 165, 165, 0.5);
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.5;
+}
+
+.description_about_proj_2 {
+    position: absolute;
+    width: 39%;
+    top: calc(149px + 14% + 22px);
+    left: 54%;
+    color: #c3f5cc;
+    font-size: 215%;
+    z-index: 7;
+    text-align: center;
+}
+
+.proj_3_img_Voic {
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    width: 30%;
+    height: 12%;
+    background: url(../img/Voic.png);
+    background-blend-mode: hard-light;
+    background-color: rgba(165, 165, 165, 0.5);
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.5;
+}
+
+.description_about_proj_3 {
+    position: absolute;
+    width: 38%;
+    top: calc(149px + 28% + 22px);
+    left: 7%;
+    color: #c3f5cc;
+    font-size: 215%;
+    z-index: 7;
+    text-align: center;
+}
+
+.proj_4_img_TG_bot {
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    width: 48%;
+    height: 12%;
+    background: url(../img/TG_bot.png);
+    background-blend-mode: hard-light;
+    background-color: rgba(165, 165, 165, 0.5);
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.5;
+}
+
+.description_about_proj_4 {
+    position: absolute;
+    width: 38%;
+    top: calc(149px + 42% + 22px);
+    left: 57%;
+    color: #c3f5cc;
+    font-size: 215%;
+    z-index: 7;
+    text-align: center;
+}
+
+.proj_5_img_SpGame {
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 59%;
+    left: 52%;
+    width: 37%;
+    height: 17%;
+    background: url(../img/img.png);
+    background-blend-mode: hard-light;
+    background-color: rgba(165, 165, 165, 0.5);
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.5;
+}
+
+.description_about_proj_5 {
+    position: absolute;
+    width: 38%;
+    top: calc(149px + 57% + 22px);
+    left: 8%;
+    color: #c3f5cc;
+    font-size: 215%;
+    z-index: 7;
+    text-align: center;
+}
+
+.proj_6_img_threads {
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 78%;
+    left: 2%;
+    width: 45%;
+    height: 18%;
+    background: url(../img/img_1.png);
+    background-blend-mode: hard-light;
+    background-color: rgba(165, 165, 165, 0.5);
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.5;
+}
+
+.description_about_proj_6 {
+    position: absolute;
+    width: 38%;
+    top: calc(149px + 77% + 22px);
+    left: 54%;
+    color: #c3f5cc;
+    font-size: 215%;
+    z-index: 7;
+    text-align: center;
+}
+
+
+.me {
+    border-radius: 20px;
+    padding-block-end: 220px;
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 29%;
+    height: 40%;
+    background: url(../img/img_i.jpg);
+    background-blend-mode: hard-light;
+    background-color: rgba(165, 165, 165, 0.5);
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.5;
+}
+
+
+
+.description {
+    position: absolute;
+    width: 50%;
+    top: calc(149px + 0% + 22px);
+    left: 35%;
+    color: #c3f5cc;
+    font-size: 86%;
+    z-index: 7;
+    text-align: center;
+}
+
+.specialist-details {
+    position: absolute;
+    top: calc(149px + 19% + 60px);
+    left: 35%;
+    width: 50%;
+    color: #c3f5cc;
+    font-size: 86%;
+    z-index: 7;
+    text-align: left;
+}
+.specialist-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.specialist-details li::before {
+    content: "• ";
+    color: #c3f5cc; /* колір маркера */
+}
+
+
+.social-icons {
+    position: absolute;
+    bottom: 16%;
+    left: 13%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #000; /* колір іконок */
+    font-size: 24px; /* розмір іконок */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0073e6; /* колір іконок при наведенні */
+}
+
+.fa-instagram:before {
+    font-size: 200%;
+    content: "\f16d";
+}
+
+.fa-telegram-plane:before, .fa-telegram:before {
+    content: "\f2c6";
+    font-size: 200%;
+}
+
+.fa-facebook-f:before {
+    font-size: 200%;
+    content: "\f39e";
+}
+
+.fa-linkedin-in:before {
+    font-size: 200%;
+    content: "\f0e1";
+}
+
+.fa-github:before {
+    font-size: 200%;
+    content: "\f09b";
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay::after {
+    content: "Denys Kulida";
+    position: absolute;
+    bottom: 82%;
+    left: 9%;
+    transform: translateX(-50%);
+    font-size: 39px;
+    color: #c3f5cc;
+    z-index: 4;
+}
+
+.projects {
+    position: relative;
+    width: 100%;
+}
+.projects-button {
+    position: absolute;
+    bottom: 360px;
+    left: 40%;
+    transform: translateX(-42%);
+    font-size: 86%;
+    color: #c3f5cc;
+    background-color: transparent;
+    border: 2px solid #c3f5cc;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 6;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.projects-button:hover {
+    background-color: #c3f5cc;
+    color: #000;
+}
+
+@media (min-width: 1001px){
+    #top{
+        font-size:3em;
+    }
+}
+
+
+
+@media (man-width: 1000px){
+    #top{
+        font-size:2em;
+    }
+}
+
+
+.social-icons_about {
+    position: absolute;
+    bottom: 16%;
+    top: 96.4%;
+    left: 12%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.social-icons_about a {
+    margin: 0 10px;
+    color: #000; /* колір іконок */
+    font-size: 24px; /* розмір іконок */
+    text-decoration: none;
+}
+
+.social-icons_about a:hover {
+    color: #0073e6; /* колір іконок при наведенні */
+}

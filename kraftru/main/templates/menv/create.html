@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Створення акети</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+
+</head>
+<body>
+   <header>
+    <div id='logo' onclick="slowScroll('#top')">
+        <span style="color: #fff; text-decoration: underline;text-decoration-color: #273600; ">ComHome</span>
+    </div>
+    <div id="about">
+
+        <a href="/" style="padding-left: 700px;text-decoration: underline;text-decoration-color: #273600;">На головну</a>
+        <a href="{% url 'about' %}" style="text-decoration: underline;text-decoration-color: #273600;">Галерея</a>
+        <a href="{% url 'create' %}" style="text-decoration: underline;text-decoration-color: #273600;">Анкета</a>
+    </div>
+   </header>
+
+<div id="fg">
+    <h1 class="h1" style="padding-top:300px">Заповніть анкету</h1>
+    <form method="post" id="forms">
+        {% csrf_token %}
+        {{ form.title }}<br>
+        {{ form.number }}<br>
+        {{ form.task }}<br>
+        <button type="submit" id="but" class="btn btn-success">Додати</button><br>
+        <h1><span>{{ thx }}</span></h1>
+        <h1><span>{{ error }}</span></h1>
+
+    </form>
+        <script>function slowScroll(id){
+        $('html, body').animate({
+            scrollTop:$(id).offset().top
+        }, 500);
+    }
+
+    $(document).on("scroll",function (){
+        if($(window).scrollTop() === 0)
+            $("header").removeClass("fixed");
+        else
+            $("header").attr("class","fixed");
+        });
+        </script>
+</div>
+
+
+
+</body>
+</html>

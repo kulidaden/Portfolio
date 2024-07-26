@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kraftru</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+   <header>
+    <div id='logo' onclick="slowScroll('#top')">
+        <span style="color: #fff;">Kraftru</span>
+    </div>
+   </header>
+
+
+   <div id="top">
+       <div class="me"></div>
+       <div class="overlay"></div>
+          <div class="description">
+               Спеціаліст у сфері розробки програмного забезпечення з освітою, що охоплює всі аспекти сучасного програмування.
+          </div>
+       <div class="specialist-details">
+            <ul>
+                <li>Вебсайти</li>
+                <li>Написання програм для ПК</li>
+                <li>Створення Telegram-ботів</li>
+            </ul>
+       </div>
+       <div class="projects"> <a href="{% url 'about' %}" class="projects-button">Проєкти</a></div>
+       <div class="social-icons">
+            <a href="https://www.instagram.com/_.k._.o.s.m.o._.s._/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/DeLemse" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100082053561305" target="_blank"><i class="fab fa-facebook-f"></i></a>
+           <a href="https://linkedin.com/in/denys-kulida-3915232a6" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/kulidaden" target="_blank"><i class="fab fa-github"></i></a>
+           <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzSCVXnHspdBKRTZdfPMSWCXJKtPzjvbXnKQpqnMLDgrggGLNvRXPgxgHVZhFLstvjt" style="font-size: 35px;"><p>kulidadinis@gmail.com</p></a>
+        </div>
+       </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   <script>
+    function slowScroll(id){
+        $('html, body').animate({
+            scrollTop:$(id).offset().top
+        }, 500);
+    }
+
+    $(document).on("scroll",function (){
+        if($(window).scrollTop() === 1)
+            $("header").removeClass("fixed");
+        else
+            $("header").attr("class","fixed");
+        });
+   </script>
+</body>
+</html>
