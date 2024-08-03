@@ -4,49 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2d8019d-a82b-4a16-aa23-79ca9394328e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/comp_site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/TG_bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/Voic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img_com.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/img_i.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/lili.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/img/vid.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/templates/menv/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/templates/menv/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/templates/menv/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/templates/menv/index.html" afterDir="false" />
+    <list default="true" id="c2d8019d-a82b-4a16-aa23-79ca9394328e" name="Changes" comment="commit all">
+      <change afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_media_about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_media_index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kraftru/main/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kraftru/main/templates/menv/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/kraftru/main/templates/menv/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kraftru/main/templates/menv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kraftru/main/templates/menv/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +72,19 @@
       <option name="presentableId" value="Default" />
       <updated>1721810080279</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit all">
+      <option name="closed" value="true" />
+      <created>1722008259958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722008259958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit all" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit all" />
   </component>
 </project>

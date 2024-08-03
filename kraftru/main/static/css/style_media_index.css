@@ -1,0 +1,43 @@
+@media (min-width: 1080px) and (min-height: 2310px){
+
+    .me {
+    height: 11%;
+    }
+
+    #top {
+    height: 100vh;
+    }
+
+    .description {
+    top: 8%;
+    font-size: 150%;
+    }
+
+    .specialist-details {
+    top: 15%;
+    left: 37%;
+    font-size: 150%;
+    }
+
+    .overlay {
+    height: 41%;
+    }
+
+    .projects-button {
+    position: absolute;
+    bottom: 379px;
+    left: 43%;
+    font-size: 150%;
+    }
+
+    .overlay::after {
+    bottom: 80%;
+    left: 12%;
+    font-size: 150%;
+    }
+
+    .social-icons {
+    bottom: 66%;
+    left: 20%;
+    }
+}

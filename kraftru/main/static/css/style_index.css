@@ -176,7 +176,7 @@ header.fixed #logo{
     content: "";
     position: absolute;
     top: 31%;
-    left: 50%;
+    left: 55%;
     width: 30%;
     height: 12%;
     background: url(../img/Voic.png);
@@ -305,7 +305,7 @@ header.fixed #logo{
     top: calc(149px + 0% + 22px);
     left: 35%;
     color: #c3f5cc;
-    font-size: 86%;
+    font-size: 200%;
     z-index: 7;
     text-align: center;
 }
@@ -316,15 +316,18 @@ header.fixed #logo{
     left: 35%;
     width: 50%;
     color: #c3f5cc;
-    font-size: 86%;
+    font-size: 200%;
     z-index: 7;
     text-align: left;
 }
+
+
 .specialist-details ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 .specialist-details li::before {
     content: "• ";
     color: #c3f5cc; /* колір маркера */
@@ -398,15 +401,13 @@ header.fixed #logo{
 }
 .projects-button {
     position: absolute;
-    bottom: 360px;
+    bottom: 379px;
     left: 40%;
     transform: translateX(-42%);
-    font-size: 86%;
+    font-size: 200%;
     color: #c3f5cc;
-    background-color: transparent;
     border: 2px solid #c3f5cc;
     padding: 10px 20px;
-    cursor: pointer;
     z-index: 6;
     text-transform: uppercase;
     text-decoration: none;
@@ -415,20 +416,6 @@ header.fixed #logo{
 .projects-button:hover {
     background-color: #c3f5cc;
     color: #000;
-}
-
-@media (min-width: 1001px){
-    #top{
-        font-size:3em;
-    }
-}
-
-
-
-@media (man-width: 1000px){
-    #top{
-        font-size:2em;
-    }
 }
 
 
@@ -451,3 +438,4 @@ header.fixed #logo{
 .social-icons_about a:hover {
     color: #0073e6; /* колір іконок при наведенні */
 }
+
