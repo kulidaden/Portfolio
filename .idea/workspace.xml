@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2d8019d-a82b-4a16-aa23-79ca9394328e" name="Changes" comment="commit all">
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_media_about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_media_index.css" afterDir="false" />
+    <list default="true" id="c2d8019d-a82b-4a16-aa23-79ca9394328e" name="Changes" comment="adapt to mobile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kraftru/main/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kraftru/main/static/css/style_media_about.css" beforeDir="false" afterPath="$PROJECT_DIR$/kraftru/main/static/css/style_media_about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kraftru/main/templates/menv/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/kraftru/main/templates/menv/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kraftru/main/templates/menv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kraftru/main/templates/menv/index.html" afterDir="false" />
     </list>
@@ -80,11 +77,20 @@
       <option name="project" value="LOCAL" />
       <updated>1722008259958</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adapt to mobile">
+      <option name="closed" value="true" />
+      <created>1722714077647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722714077652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit all" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit all" />
+    <MESSAGE value="adapt to mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapt to mobile" />
   </component>
 </project>
