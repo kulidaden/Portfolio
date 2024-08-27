@@ -1,2 +1,1 @@
-# Site:
-https://portfoliobykulida.pythonanywhere.com/
+# Site: https://portfoliobykulida.pythonanywhere.com/
